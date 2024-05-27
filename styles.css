@@ -1,0 +1,272 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+  }
+  
+  .container {
+    width: 90%;
+    margin: auto;
+    overflow: hidden;
+  }
+  
+  header {
+    background: #fff;
+    padding: 20px 0;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  header .logo {
+    width: 150px;
+    margin-bottom: 20px;
+  }
+  
+  header nav {
+    display: inline-block;
+    margin: 0 10px;
+    font-size: 14px;
+    color: #333;
+    cursor: pointer;
+    text-align:right;
+  }
+  
+  header h1 {
+    font-size: 46px;
+    margin: 20px 0 10px;
+  }
+  
+  header h1 span {
+    color: #0007e0;
+  }
+  
+  header p {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  header button {
+    padding: 10px 20px;
+    background-color: #070707;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 10 px;
+}
+  
+  section.blockchain {
+    text-align: center;
+    padding: 50px 20px;
+  }
+  
+  section.blockchain img {
+    width: 500px;
+    margin-bottom: 20px;
+    align-self:baseline;
+  }
+  
+  section.blockchain h2 {
+    font-size: 30px;
+    margin-bottom: 24px;
+  }
+  
+  section.blockchain p {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  section.why {
+    background: #fff;
+    padding: 50px 20px;
+    text-align:justify;
+  }
+  
+  section.why h2 {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 40px;
+  }
+  
+  section.why .cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  section.why .card {
+    width: 200px;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  section.why .card img {
+    width: 100px;
+    margin-bottom: 10px;
+  }
+  
+  section.why .card p {
+    font-size: 24px;
+  }
+  
+  /* Portfolio Section */
+  section.portfolio {
+    background: #daf6fa;
+    padding: 50px 20px;
+  }
+  
+  section.portfolio h2 {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 40px;
+  }
+  
+  section.portfolio .container-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  section.portfolio .portfolio.item {
+    width: 200px;
+    text-align: center;
+    justify-content: center;
+    padding: 20px;
+    margin-bottom: 20px;
+    background: #fff;
+  }
+  
+  section.portfolio .portfolio.item img {
+    width: 0 auto;
+    margin-bottom: 5px;
+  }
+  
+  section.portfolio .portfolio.item p {
+    font-size: 24px;
+    margin-bottom: 5px;
+  }
+  
+  section.portfolio .portfolio.item span {
+    font-size: 18px;
+    color: #666;
+  }
+  
+  Media Section
+  section.media {
+    padding: 50px 20px;
+  }
+  
+  section.media h2 {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 40px;
+  }
+  
+  section.media .media-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  section.media .media-item {
+    width: 300px;
+    text-align: left;
+    padding: 20px;
+    margin-bottom: 20px;
+    background: #fff;
+    border-radius: 10px;
+  }
+  
+  section.media .media-item img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    border-radius: 10px;
+  }
+  
+  section.media .media-item p {
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+  
+  section.media .media-item span {
+    font-size: 14px;
+    color: #666;
+  }
+  
+  footer {
+    background: #0f0f0f;
+    color: #fff;
+    padding: 50px 20px;
+    text-align: center;
+  }
+  
+  footer img {
+    width: 200px;
+    margin-bottom: 5px;
+    background-color: #ffffff;
+    border-radius: 20px;
+  }
+  
+  footer h3 {
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+  
+  footer button {
+    background: none;
+    border: 10px;
+    margin: 0 5px;
+    cursor: pointer;
+  }
+  
+  footer button img {
+    width: 30px;
+  }
+  
+  footer p {
+    margin: 10px 0;
+    font-size: 24px;
+  }
+  
+  footer a {
+    color: #a1a1a1;
+    text-decoration:underline;
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  footer .Links1,
+  footer .Links3 {
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+  }
+  
+  footer .Links1 h4,
+  footer .Links3 h4 {
+    font-size: 30px;
+    margin-bottom: 10px;
+  }
+  
+  footer .Links1 a,
+  footer .Links3 a {
+    font-size: 16px;
+    margin-bottom: 10px;
+    display: block;
+  }
+  
+  footer .button {
+    margin-top: 10px;
+  }
+  
+  footer .button a {
+    padding: 10px 10px;
+    background-color: #019334;
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 10px;
+  }
+  
